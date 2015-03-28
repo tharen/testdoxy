@@ -1,4 +1,4 @@
-﻿      SUBROUTINE FMPHOTOVAL (FotoRef, Fotocode, FotoVal, FotoValS)
+      SUBROUTINE FMPHOTOVAL (FotoRef, Fotocode, FotoVal, FotoValS)
       IMPLICIT NONE
 C----------
 C  $Id$

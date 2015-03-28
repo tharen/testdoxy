@@ -39,7 +39,7 @@ C
       DATA ((ASPT(I,J),J=1,10),I=1,10) /
 C      ALFA   FIA   PLNT       AK    BM    CA    CI    CR    EC    EM        SPECIES
      & 'OF ','010','ABIES   ','SF ','GF ','WF ','AF ','AF ','GF ','AF ',    !Abies
-     & 'SH ','021','ABSH    ','OS ','OS ','SH ','OS ','OS ','NF ','OS ',    !Abies ×shastensis
+     & 'SH ','021','ABSH    ','OS ','OS ','SH ','OS ','OS ','NF ','OS ',    !Abies Ã—shastensis
      & 'SF ','011','ABAM    ','SF ','OS ','SH ','OS ','OS ','SF ','OS ',    !Abies amabilis
      & 'SL ','014','ABBR    ','OS ','OS ','OS ','OS ','OS ','WB ','OS ',    !Abies bracteata
      & 'WF ','015','ABCO    ','OS ','GF ','WF ','GF ','WF ','WF ','AF ',    !Abies concolor
@@ -52,7 +52,7 @@ C
       DATA ((ASPT(I,J),J=11,20),I=1,10) /
 C       IE    KT    NC    NI    PN    SO    TT    UT    WC    WS             SPECIES
      & 'GF ','GF ','WF ','GF ','SF ','WF ','AF ','AF ','SF ','WF ',         !Abies
-     & 'OS ','OT ','RF ','OT ','RF ','SH ','OS ','WF ','RF ','RF ',         !Abies ×shastensis
+     & 'OS ','OT ','RF ','OT ','RF ','SH ','OS ','WF ','RF ','RF ',         !Abies Ã—shastensis
      & 'OS ','OT ','RF ','OT ','SF ','SF ','OS ','OS ','SF ','SF ',         !Abies amabilis
      & 'OS ','OT ','OS ','OT ','OT ','OS ','OS ','OS ','OT ','OS ',         !Abies bracteata
      & 'GF ','GF ','WF ','GF ','WF ','WF ','AF ','WF ','WF ','WF ',         !Abies concolor
@@ -272,8 +272,8 @@ C       IE    KT    NC    NI    PN    SO    TT    UT    WC    WS             SPE
 C
       DATA ((ASPT(I,J),J=1,10),I=91,100) /
 C      ALFA   FIA   PLNT       AK    BM    CA    CI    CR    EC    EM        SPECIES
-     & '   ','   ','BEEA    ','OH ','OH ','OH ','OH ','OH ','PB ','PB ',    !Betula ×eastwoodiae
-     & 'NW ','378','BEUT    ','OH ','OH ','OH ','OH ','OH ','PB ','PB ',    !Betula ×utahensis
+     & '   ','   ','BEEA    ','OH ','OH ','OH ','OH ','OH ','PB ','PB ',    !Betula Ã—eastwoodiae
+     & 'NW ','378','BEUT    ','OH ','OH ','OH ','OH ','OH ','PB ','PB ',    !Betula Ã—utahensis
      & '   ','   ','BEGL    ','OH ','OH ','OH ','OH ','OH ','PB ','OH ',    !Betula glandulosa
      & '   ','   ','BENA    ','OH ','OH ','OH ','OH ','OH ','PB ','OH ',    !Betula nana
      & '   ','   ','BENE4   ','OH ','OH ','OH ','OH ','OH ','PB ','OH ',    !Betula neoalaskana
@@ -285,8 +285,8 @@ C      ALFA   FIA   PLNT       AK    BM    CA    CI    CR    EC    EM        SPE
 C
       DATA ((ASPT(I,J),J=11,20),I=91,100) /
 C       IE    KT    NC    NI    PN    SO    TT    UT    WC    WS             SPECIES
-     & 'PB ','OT ','OH ','OT ','PB ','OH ','OH ','OH ','PB ','OH ',         !Betula ×eastwoodiae
-     & 'PB ','OT ','OH ','OT ','PB ','OH ','OH ','OH ','PB ','OH ',         !Betula ×utahensis
+     & 'PB ','OT ','OH ','OT ','PB ','OH ','OH ','OH ','PB ','OH ',         !Betula Ã—eastwoodiae
+     & 'PB ','OT ','OH ','OT ','PB ','OH ','OH ','OH ','PB ','OH ',         !Betula Ã—utahensis
      & 'OH ','OT ','OH ','OT ','OT ','OH ','OH ','OH ','OT ','OH ',         !Betula glandulosa
      & 'OH ','OT ','OH ','OT ','OT ','OH ','OH ','OH ','OT ','OH ',         !Betula nana
      & 'OH ','OT ','OH ','OT ','OT ','OH ','OH ','OH ','OT ','OH ',         !Betula neoalaskana
@@ -484,7 +484,7 @@ C      ALFA   FIA   PLNT       AK    BM    CA    CI    CR    EC    EM        SPE
      & '   ','   ','ELCO    ','OH ','OH ','OH ','OH ','OH ','OH ','OH ',    !Elaeagnus commutata
      & '   ','   ','ERJA3   ','OH ','OH ','OH ','OH ','OH ','OH ','OH ',    !Eriobotrya japonica
      & '   ','   ','EUCAL   ','OH ','OH ','OH ','OH ','OH ','OH ','OH ',    !Eucalyptus
-     & '   ','   ','EUMO5   ','OH ','OH ','OH ','OH ','OH ','OH ','OH ',    !Eucalyptus ×mortoniana
+     & '   ','   ','EUMO5   ','OH ','OH ','OH ','OH ','OH ','OH ','OH ',    !Eucalyptus Ã—mortoniana
      & '   ','   ','EUCA2   ','OH ','OH ','OH ','OH ','OH ','OH ','OH ',    !Eucalyptus camaldulensis
      & '   ','   ','EUCL    ','OH ','OH ','OH ','OH ','OH ','OH ','OH ',    !Eucalyptus cladocalyx
      & '   ','   ','EUGL    ','OH ','OH ','OH ','OH ','OH ','OH ','OH ',    !Eucalyptus globulus
@@ -497,7 +497,7 @@ C       IE    KT    NC    NI    PN    SO    TT    UT    WC    WS             SPE
      & 'OH ','OT ','OH ','OT ','OT ','OH ','OH ','OH ','OT ','OH ',         !Elaeagnus commutata
      & 'OH ','OT ','OH ','OT ','OT ','OH ','OH ','OH ','OT ','OH ',         !Eriobotrya japonica
      & 'OH ','OT ','OH ','OT ','OT ','OH ','OH ','OH ','OT ','OH ',         !Eucalyptus
-     & 'OH ','OT ','OH ','OT ','OT ','OH ','OH ','OH ','OT ','OH ',         !Eucalyptus ×mortoniana
+     & 'OH ','OT ','OH ','OT ','OT ','OH ','OH ','OH ','OT ','OH ',         !Eucalyptus Ã—mortoniana
      & 'OH ','OT ','OH ','OT ','OT ','OH ','OH ','OH ','OT ','OH ',         !Eucalyptus camaldulensis
      & 'OH ','OT ','OH ','OT ','OT ','OH ','OH ','OH ','OT ','OH ',         !Eucalyptus cladocalyx
      & 'OH ','OT ','OH ','OT ','OT ','OH ','OH ','OH ','OT ','OH ',         !Eucalyptus globulus
@@ -799,7 +799,7 @@ C      ALFA   FIA   PLNT       AK    BM    CA    CI    CR    EC    EM        SPE
      & 'BS ','096','PIPU    ','OS ','OS ','OS ','OS ','BS ','ES ','ES ',    !Picea pungens
      & 'SS ','098','PISI    ','SS ','OS ','OS ','OS ','OS ','OS ','OS ',    !Picea sitchensis
      & 'OP ','100','PINUS   ','LP ','PP ','SP ','PP ','PP ','LP ','LP ',    !Pinus
-     & '   ','   ','PIAT2   ','OS ','OS ','MP ','OS ','OS ','OS ','OS ',    !Pinus ×attenuradiata
+     & '   ','   ','PIAT2   ','OS ','OS ','MP ','OS ','OS ','OS ','OS ',    !Pinus Ã—attenuradiata
      & 'WB ','101','PIAL    ','OS ','WB ','WB ','WB ','WB ','WB ','WB ',    !Pinus albicaulis
      & 'BC ','102','PIAR    ','OS ','OS ','OS ','OS ','BC ','WB ','OS '/    !Pinus aristata
 C
@@ -812,7 +812,7 @@ C       IE    KT    NC    NI    PN    SO    TT    UT    WC    WS             SPE
      & 'ES ','ES ','OS ','ES ','OT ','OS ','BS ','BS ','OT ','OS ',         !Picea pungens
      & 'OS ','OT ','OS ','OT ','SS ','OS ','OS ','OS ','ES ','OS ',         !Picea sitchensis
      & 'LP ','LP ','SP ','LP ','LP ','PP ','LP ','LP ','LP ','PP ',         !Pinus
-     & 'OS ','OT ','OS ','OT ','OT ','OS ','OS ','OS ','OT ','MP ',         !Pinus ×attenuradiata
+     & 'OS ','OT ','OS ','OT ','OT ','OS ','OS ','OS ','OT ','MP ',         !Pinus Ã—attenuradiata
      & 'WB ','LP ','OS ','LP ','WB ','WB ','WB ','WB ','WB ','WB ',         !Pinus albicaulis
      & 'OS ','OT ','OS ','OT ','OT ','OS ','OS ','OS ','OT ','OS '/         !Pinus aristata
 C
@@ -952,12 +952,12 @@ C      ALFA   FIA   PLNT       AK    BM    CA    CI    CR    EC    EM        SPE
      & 'PS ','729','PLATA   ','OH ','OH ','SY ','OH ','NC ','OH ','OH ',    !Platanus spp.
      & '   ','   ','PLWR2   ','OH ','OH ','SY ','OH ','NC ','OH ','OH ',    !Platanus wrightii
      & 'CO ','740','POPUL   ','CW ','CW ','CW ','CW ','NC ','CW ','CW ',    !Populus
-     & '   ','   ','POAC5   ','OH ','CW ','CW ','CW ','NC ','CW ','CW ',    !Populus ×acuminata
-     & '   ','   ','POBR7   ','OH ','CW ','CW ','CW ','NC ','CW ','CW ',    !Populus ×brayshawii
-     & '   ','   ','POCA19  ','OH ','CW ','CW ','CW ','OH ','CW ','OH ',    !Populus ×canadensis
-     & '   ','   ','POHI8   ','OH ','CW ','CW ','CW ','NC ','CW ','CW ',    !Populus ×hinckleyana
-     & '   ','   ','POIN23  ','OH ','CW ','CW ','CW ','NC ','CW ','CW ',    !Populus ×inopina
-     & '   ','   ','POJA2   ','OH ','CW ','CW ','CW ','OH ','CW ','OH '/    !Populus ×jackii
+     & '   ','   ','POAC5   ','OH ','CW ','CW ','CW ','NC ','CW ','CW ',    !Populus Ã—acuminata
+     & '   ','   ','POBR7   ','OH ','CW ','CW ','CW ','NC ','CW ','CW ',    !Populus Ã—brayshawii
+     & '   ','   ','POCA19  ','OH ','CW ','CW ','CW ','OH ','CW ','OH ',    !Populus Ã—canadensis
+     & '   ','   ','POHI8   ','OH ','CW ','CW ','CW ','NC ','CW ','CW ',    !Populus Ã—hinckleyana
+     & '   ','   ','POIN23  ','OH ','CW ','CW ','CW ','NC ','CW ','CW ',    !Populus Ã—inopina
+     & '   ','   ','POJA2   ','OH ','CW ','CW ','CW ','OH ','CW ','OH '/    !Populus Ã—jackii
 C
       DATA ((ASPT(I,J),J=11,20),I=351,360) /
 C       IE    KT    NC    NI    PN    SO    TT    UT    WC    WS             SPECIES
@@ -965,16 +965,16 @@ C       IE    KT    NC    NI    PN    SO    TT    UT    WC    WS             SPE
      & 'OH ','OT ','OH ','OT ','OT ','OH ','OH ','OH ','OT ','OH ',         !Platanus spp.
      & 'OH ','OT ','OH ','OT ','OT ','OH ','OH ','OH ','OT ','OH ',         !Platanus wrightii
      & 'CO ','OT ','OH ','OT ','CW ','CW ','NC ','NC ','CW ','OH ',         !Populus
-     & 'CO ','OT ','OH ','OT ','CW ','CW ','NC ','NC ','CW ','OH ',         !Populus ×acuminata
-     & 'CO ','OT ','OH ','OT ','CW ','CW ','NC ','NC ','CW ','OH ',         !Populus ×brayshawii
-     & 'OH ','OT ','OH ','OT ','CW ','CW ','OH ','NC ','CW ','OH ',         !Populus ×canadensis
-     & 'CO ','OT ','OH ','OT ','CW ','CW ','NC ','NC ','CW ','OH ',         !Populus ×hinckleyana
-     & 'CO ','OT ','OH ','OT ','CW ','CW ','NC ','NC ','CW ','OH ',         !Populus ×inopina
-     & 'OH ','OT ','OH ','OT ','CW ','CW ','OH ','NC ','CW ','OH '/         !Populus ×jackii
+     & 'CO ','OT ','OH ','OT ','CW ','CW ','NC ','NC ','CW ','OH ',         !Populus Ã—acuminata
+     & 'CO ','OT ','OH ','OT ','CW ','CW ','NC ','NC ','CW ','OH ',         !Populus Ã—brayshawii
+     & 'OH ','OT ','OH ','OT ','CW ','CW ','OH ','NC ','CW ','OH ',         !Populus Ã—canadensis
+     & 'CO ','OT ','OH ','OT ','CW ','CW ','NC ','NC ','CW ','OH ',         !Populus Ã—hinckleyana
+     & 'CO ','OT ','OH ','OT ','CW ','CW ','NC ','NC ','CW ','OH ',         !Populus Ã—inopina
+     & 'OH ','OT ','OH ','OT ','CW ','CW ','OH ','NC ','CW ','OH '/         !Populus Ã—jackii
 C
       DATA ((ASPT(I,J),J=1,10),I=361,370) /
 C      ALFA   FIA   PLNT       AK    BM    CA    CI    CR    EC    EM        SPECIES
-     & '   ','   ','POPA11  ','OH ','CW ','CW ','CW ','NC ','CW ','CW ',    !Populus ×parryi
+     & '   ','   ','POPA11  ','OH ','CW ','CW ','CW ','NC ','CW ','CW ',    !Populus Ã—parryi
      & '   ','   ','POAL7   ','OH ','CW ','CW ','CW ','OH ','CW ','CW ',    !Populus alba
      & 'NC ','749','POAN3   ','OH ','CW ','CW ','CW ','NC ','CW ','NC ',    !Populus angustifolia
      & 'BA ','741','POBA2   ','CW ','CW ','CW ','CW ','NC ','CW ','BA ',    !Populus balsamifera
@@ -987,7 +987,7 @@ C      ALFA   FIA   PLNT       AK    BM    CA    CI    CR    EC    EM        SPE
 C
       DATA ((ASPT(I,J),J=11,20),I=361,370) /
 C       IE    KT    NC    NI    PN    SO    TT    UT    WC    WS             SPECIES
-     & 'CO ','OT ','OH ','OT ','CW ','CW ','NC ','NC ','CW ','OH ',         !Populus ×parryi
+     & 'CO ','OT ','OH ','OT ','CW ','CW ','NC ','NC ','CW ','OH ',         !Populus Ã—parryi
      & 'CO ','OT ','OH ','OT ','CW ','CW ','OH ','NC ','CW ','OH ',         !Populus alba
      & 'CO ','OT ','OH ','OT ','CW ','CW ','NC ','NC ','CW ','OH ',         !Populus angustifolia
      & 'CO ','OT ','OH ','OT ','CW ','CW ','NC ','NC ','CW ','OH ',         !Populus balsamifera
@@ -1060,8 +1060,8 @@ C      ALFA   FIA   PLNT       AK    BM    CA    CI    CR    EC    EM        SPE
      & '   ','   ','PYCO    ','OH ','OH ','OH ','OH ','OH ','OH ','OH ',    !Pyrus communis
      & 'OA ','800','QUERC   ','OH ','OH ','LO ','OH ','GO ','WO ','OH ',    !Quercus
      & 'OE ','850','        ','OH ','OH ','LO ','OH ','EM ','WO ','OH ',    !Quercus
-     & '   ','   ','QUMO2   ','OH ','OH ','OH ','OH ','GO ','OH ','OH ',    !Quercus ×moreha
-     & '   ','   ','QUPA4   ','OH ','OH ','LO ','OH ','GO ','WO ','OH '/    !Quercus ×pauciloba
+     & '   ','   ','QUMO2   ','OH ','OH ','OH ','OH ','GO ','OH ','OH ',    !Quercus Ã—moreha
+     & '   ','   ','QUPA4   ','OH ','OH ','LO ','OH ','GO ','WO ','OH '/    !Quercus Ã—pauciloba
 C
       DATA ((ASPT(I,J),J=11,20),I=391,400) /
 C       IE    KT    NC    NI    PN    SO    TT    UT    WC    WS             SPECIES
@@ -1073,8 +1073,8 @@ C       IE    KT    NC    NI    PN    SO    TT    UT    WC    WS             SPE
      & 'OH ','OT ','OH ','OT ','OT ','OH ','OH ','OH ','OT ','OH ',         !Pyrus communis
      & 'OH ','OT ','BO ','OT ','WO ','WO ','OH ','GO ','WO ','BO ',         !Quercus
      & 'OH ','OT ','BO ','OT ','WO ','WO ','OH ','GO ','WO ','BO ',         !Quercus
-     & 'OH ','OT ','OH ','OT ','OT ','OH ','OH ','OH ','OT ','BO ',         !Quercus ×moreha
-     & 'OH ','OT ','BO ','OT ','WO ','WO ','OH ','GO ','WO ','LO '/         !Quercus ×pauciloba
+     & 'OH ','OT ','OH ','OT ','OT ','OH ','OH ','OH ','OT ','BO ',         !Quercus Ã—moreha
+     & 'OH ','OT ','BO ','OT ','WO ','WO ','OH ','GO ','WO ','LO '/         !Quercus Ã—pauciloba
 C
       DATA ((ASPT(I,J),J=1,10),I=401,410) /
 C      ALFA   FIA   PLNT       AK    BM    CA    CI    CR    EC    EM        SPECIES
@@ -1157,7 +1157,7 @@ C
       DATA ((ASPT(I,J),J=1,10),I=431,440) /
 C      ALFA   FIA   PLNT       AK    BM    CA    CI    CR    EC    EM        SPECIES
      & '   ','   ','ROBIN   ','OH ','OH ','OH ','OH ','OH ','OH ','OH ',    !Robinia
-     & '   ','   ','ROHO    ','OH ','OH ','OH ','OH ','OH ','OH ','OH ',    !Robinia ×holdtii
+     & '   ','   ','ROHO    ','OH ','OH ','OH ','OH ','OH ','OH ','OH ',    !Robinia Ã—holdtii
      & '   ','   ','ROHI    ','OH ','OH ','OH ','OH ','OH ','OH ','OH ',    !Robinia hispida
      & '   ','   ','ROHIF8  ','OH ','OH ','OH ','OH ','OH ','OH ','OH ',    !Robinia hispida var. fertilis
      & '   ','   ','ROHIH   ','OH ','OH ','OH ','OH ','OH ','OH ','OH ',    !Robinia hispida var. hispida
@@ -1170,7 +1170,7 @@ C
       DATA ((ASPT(I,J),J=11,20),I=431,440) /
 C       IE    KT    NC    NI    PN    SO    TT    UT    WC    WS             SPECIES
      & 'OH ','OT ','OH ','OT ','OT ','OH ','OH ','OH ','OT ','OH ',         !Robinia
-     & 'OH ','OT ','OH ','OT ','OT ','OH ','OH ','OH ','OT ','OH ',         !Robinia ×holdtii
+     & 'OH ','OT ','OH ','OT ','OT ','OH ','OH ','OH ','OT ','OH ',         !Robinia Ã—holdtii
      & 'OH ','OT ','OH ','OT ','OT ','OH ','OH ','OH ','OT ','OH ',         !Robinia hispida
      & 'OH ','OT ','OH ','OT ','OT ','OH ','OH ','OH ','OT ','OH ',         !Robinia hispida var. fertilis
      & 'OH ','OT ','OH ','OT ','OT ','OH ','OH ','OH ','OT ','OH ',         !Robinia hispida var. hispida
@@ -1312,11 +1312,11 @@ C       IE    KT    NC    NI    PN    SO    TT    UT    WC    WS             SPE
 C
       DATA ((ASPT(I,J),J=1,10),I=491,500) /
 C      ALFA   FIA   PLNT       AK    BM    CA    CI    CR    EC    EM        SPECIES
-     & '   ','   ','TIEU4   ','OH ','OH ','OH ','OH ','OH ','OH ','OH ',    !Tilia ×europaea
+     & '   ','   ','TIEU4   ','OH ','OH ','OH ','OH ','OH ','OH ','OH ',    !Tilia Ã—europaea
      & 'CN ','251','TOCA    ','OS ','OS ','CN ','OS ','OS ','OS ','OS ',    !Torreya californica
      & '   ','   ','TRSE6   ','OH ','OH ','OH ','OH ','OH ','OH ','OH ',    !Triadica sebifera
      & 'HS ','260','TSUGA   ','WH ','MH ','WH ','WH ','MH ','WH ','OS ',    !Tsuga
-     & '   ','   ','TSJE    ','WH ','MH ','WH ','OS ','OS ','WH ','OS ',    !Tsuga ×jeffreyi
+     & '   ','   ','TSJE    ','WH ','MH ','WH ','OS ','OS ','WH ','OS ',    !Tsuga Ã—jeffreyi
      & 'WH ','263','TSHE    ','WH ','GF ','WH ','WH ','OS ','WH ','OS ',    !Tsuga heterophylla
      & 'MH ','264','TSME    ','MH ','MH ','MH ','OS ','MH ','MH ','OS ',    !Tsuga mertensiana
      & '   ','   ','ULMUS   ','OH ','OH ','OH ','OH ','OH ','OH ','OH ',    !Ulmus
@@ -1325,11 +1325,11 @@ C      ALFA   FIA   PLNT       AK    BM    CA    CI    CR    EC    EM        SPE
 C
       DATA ((ASPT(I,J),J=11,20),I=491,500) /
 C       IE    KT    NC    NI    PN    SO    TT    UT    WC    WS             SPECIES
-     & 'OH ','OT ','OH ','OT ','OT ','OH ','OH ','OH ','OT ','OH ',         !Tilia ×europaea
+     & 'OH ','OT ','OH ','OT ','OT ','OH ','OH ','OH ','OT ','OH ',         !Tilia Ã—europaea
      & 'OS ','OT ','OS ','OT ','OT ','OS ','OS ','OS ','OT ','OS ',         !Torreya californica
      & 'OH ','OT ','OH ','OT ','OT ','OH ','OH ','OH ','OT ','OH ',         !Triadica sebifera
      & 'WH ','WH ','DF ','WH ','WH ','WH ','OS ','OS ','WH ','MH ',         !Tsuga
-     & 'WH ','WH ','DF ','WH ','WH ','WH ','OS ','OS ','WH ','OS ',         !Tsuga ×jeffreyi
+     & 'WH ','WH ','DF ','WH ','WH ','WH ','OS ','OS ','WH ','OS ',         !Tsuga Ã—jeffreyi
      & 'WH ','WH ','DF ','WH ','WH ','WH ','OS ','OS ','WH ','OS ',         !Tsuga heterophylla
      & 'MH ','WH ','OS ','WH ','MH ','MH ','OS ','AF ','MH ','MH ',         !Tsuga mertensiana
      & 'OH ','OT ','OH ','OT ','OT ','OH ','OH ','OH ','OT ','OH ',         !Ulmus
