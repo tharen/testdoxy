@@ -1,0 +1,16 @@
+digraph "Calc_Herb"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="Calc_Herb",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="CI_isGrassGroup",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$fof__ci_8c.html#a1f7b0b30492c6c18d520fb967cd0588d"];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="xstrcmpi",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$fof__ansi_8h.html#ae4a2af8fafbd412557cbf887bb828c13"];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="xstrupr",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$fof__unix_8c.html#a597515502edd92634b421f7f86824375"];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="CI_isSpring",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$fof__ci_8c.html#a32fec1f1a37f4f90491ef631fa5a8725"];
+  Node5 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

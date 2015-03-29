@@ -1,0 +1,10 @@
+digraph "strp" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_1128aa47794b88d75eceb1ba85c4ff09 {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_1128aa47794b88d75eceb1ba85c4ff09.html"];
+    dir_1128aa47794b88d75eceb1ba85c4ff09 [shape=plaintext label="strp"];
+    dir_fcc66378799c273ec208219df0d5c315 [shape=box label="src" color="black" fillcolor="white" style="filled" URL="dir_fcc66378799c273ec208219df0d5c315.html"];
+  }
+}

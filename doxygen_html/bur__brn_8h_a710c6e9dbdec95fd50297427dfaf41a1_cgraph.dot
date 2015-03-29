@@ -1,0 +1,9 @@
+digraph "BRN_CheckData"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="BRN_CheckData",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="_ChkLimM",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$bur__brn_8c.html#ad85856a6abc550c5af46058356f89296"];
+}
