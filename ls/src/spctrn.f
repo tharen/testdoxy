@@ -222,7 +222,7 @@ C
       DATA ((ASPT(I,J),J=1,8),I=141,150) /
 C      ALFA   FIA   PLNT       CS    LS    NE    SE    SN       SPECIES
      & '   ','513','EUGR12  ','NC ','NC ','OH ','NC ','OH ',    !Eucalyptus grandis W. Hill ex Maid.
-     & '   ','510','EUCAL   ','NC ','NC ','OH ','NC ','OH ',    !Eucalyptus L'Hér.
+     & '   ','510','EUCAL   ','NC ','NC ','OH ','NC ','OH ',    !Eucalyptus L'HÃ©r.
      & '   ','514','EURO2   ','NC ','NC ','OH ','NC ','OH ',    !Eucalyptus robusta Sm.
      & '   ','   ','EUEG    ','NC ','NC ','NC ','NC ','OH ',    !Eugenia eggersii Kiaersk.
      & '   ','873','EURH    ','NC ','NC ','NC ','NC ','OT ',    !Eugenia rhombea (Berg) Krug & Urb.
@@ -282,7 +282,7 @@ C      ALFA   FIA   PLNT       CS    LS    NE    SE    SN       SPECIES
      & '   ','605','JUMI    ','WN ','WN ','WN ','WN ','WN ',    !Juglans microcarpa Berl.
      & 'WN ','602','JUNI    ','WN ','WN ','WN ','WN ','WN ',    !Juglans nigra L.
      & '   ','061','JUAS    ','JU ','RC ','OC ','JU ','JU ',    !Juniperus ashei J. Buchholz
-     & '   ','059','JUCO11  ','JU ','RC ','OC ','JU ','JU '/    !Juniperus coahuilensis (Martiñez) Gaussen ex R.P. Adams
+     & '   ','059','JUCO11  ','JU ','RC ','OC ','JU ','JU '/    !Juniperus coahuilensis (MartiÃ±ez) Gaussen ex R.P. Adams
 C
       DATA ((ASPT(I,J),J=1,8),I=191,200) /
 C      ALFA   FIA   PLNT       CS    LS    NE    SE    SN       SPECIES
@@ -420,7 +420,7 @@ C      ALFA   FIA   PLNT       CS    LS    NE    SE    SN       SPECIES
      & '   ','722','PLAQ    ','NC ','NC ','NC ','NC ','OH ',    !Planera aquatica J.F. Gmel.
      & '   ','729','PLATA   ','SY ','SY ','SY ','SY ','SY ',    !Platanus L.
      & 'SY ','731','PLOC    ','SY ','SY ','SY ','SY ','SY ',    !Platanus occidentalis L.
-     & '   ','   ','POAC5   ','EC ','EC ','EC ','CW ','CW ',    !Populus ×acuminata Rydb. (pro sp.) [angustifolia × deltoides]
+     & '   ','   ','POAC5   ','EC ','EC ','EC ','CW ','CW ',    !Populus Ã—acuminata Rydb. (pro sp.) [angustifolia Ã— deltoides]
      & '   ','752','POAL7   ','BP ','BP ','BP ','BP ','BT ',    !Populus alba L.
      & '   ','749','POAN3   ','EC ','EC ','EC ','CW ','CW ',    !Populus angustifolia James
      & 'BP ','741','POBA2   ','BP ','BP ','BP ','BP ','BT ',    !Populus balsamifera L.
@@ -462,7 +462,7 @@ C      ALFA   FIA   PLNT       CS    LS    NE    SE    SN       SPECIES
      & '   ','202','PSME    ','OS ','OS ','OS ','SR ','OS ',    !Pseudotsuga menziesii (Mirb.) Franco
      & '   ','   ','PSMEG   ','OS ','OS ','OS ','SR ','OS ',    !Pseudotsuga menziesii (Mirb.) Franco var. glauca (Beissn.) Franco
      & '   ','   ','PSSI2   ','NC ','NC ','NC ','NC ','OH ',    !Psidium sintenisii (Kiaersk.) Alain
-     & '   ','   ','QUPA4   ','BJ ','NC ','OK ','BJ ','BJ ',    !Quercus ×pauciloba Rydb. (pro sp.) [gambelii × turbinella]
+     & '   ','   ','QUPA4   ','BJ ','NC ','OK ','BJ ','BJ ',    !Quercus Ã—pauciloba Rydb. (pro sp.) [gambelii Ã— turbinella]
      & '   ','   ','QUAC2   ','BJ ','NC ','OK ','BJ ','BJ ',    !Quercus acerifolia (Palmer) Stoynoff & Hess
      & 'WO ','802','QUAL    ','WO ','WO ','WO ','WO ','WO '/    !Quercus alba L.
 C
@@ -472,7 +472,7 @@ C      ALFA   FIA   PLNT       CS    LS    NE    SE    SN       SPECIES
      & '   ','   ','QUAR2   ','BJ ','NC ','OK ','BJ ','BJ ',    !Quercus arkansana Sarg.
      & 'SW ','804','QUBI    ','SW ','SW ','SW ','SW ','WO ',    !Quercus bicolor Willd.
      & '   ','   ','QUBO2   ','PO ','BR ','PO ','PO ','PO ',    !Quercus boyntonii Beadle
-     & 'SO ','806','QUCO2   ','SO ','BO ','SO ','SO ','SO ',    !Quercus coccinea Münchh.
+     & 'SO ','806','QUCO2   ','SO ','BO ','SO ','SO ','SO ',    !Quercus coccinea MÃ¼nchh.
      & 'NP ','809','QUEL    ','PN ','NP ','PN ','NP ','SK ',    !Quercus ellipsoidalis E.J. Hill
      & '   ','810','QUEM    ','BJ ','NC ','OK ','BJ ','BJ ',    !Quercus emoryi Torr.
      & 'SK ','812','QUFA    ','SK ','BO ','SK ','SK ','SK ',    !Quercus falcata Michx.
@@ -494,7 +494,7 @@ C      ALFA   FIA   PLNT       CS    LS    NE    SE    SN       SPECIES
 C
       DATA ((ASPT(I,J),J=1,8),I=351,360) /
 C      ALFA   FIA   PLNT       CS    LS    NE    SE    SN       SPECIES
-     & 'BJ ','824','QUMA3   ','BJ ','NC ','OK ','BJ ','BJ ',    !Quercus marilandica Münchh.
+     & 'BJ ','824','QUMA3   ','BJ ','NC ','OK ','BJ ','BJ ',    !Quercus marilandica MÃ¼nchh.
      & 'SN ','825','QUMI    ','SN ','WO ','SN ','SN ','SN ',    !Quercus michauxii Nutt.
      & '   ','841','QUMI2   ','BJ ','NC ','OK ','DP ','TO ',    !Quercus minima (Sarg.) Small
      & 'CK ','826','QUMU    ','CK ','CK ','CK ','CK ','CK ',    !Quercus muehlenbergii Engelm.
@@ -503,7 +503,7 @@ C      ALFA   FIA   PLNT       CS    LS    NE    SE    SN       SPECIES
      & '   ','829','QUOB    ','BJ ','NC ','OK ','BJ ','BJ ',    !Quercus oblongifolia Torr.
      & '   ','844','QUOG    ','BJ ','NC ','OK ','LK ','LK ',    !Quercus oglethorpensis Duncan
      & 'CB ','813','QUPA5   ','CB ','BO ','CB ','CB ','CB ',    !Quercus pagoda Raf.
-     & 'PN ','830','QUPA2   ','PN ','NP ','PN ','PN ','SK '/    !Quercus palustris Münchh.
+     & 'PN ','830','QUPA2   ','PN ','NP ','PN ','PN ','SK '/    !Quercus palustris MÃ¼nchh.
 C
       DATA ((ASPT(I,J),J=1,8),I=361,370) /
 C      ALFA   FIA   PLNT       CS    LS    NE    SE    SN       SPECIES
@@ -511,7 +511,7 @@ C      ALFA   FIA   PLNT       CS    LS    NE    SE    SN       SPECIES
      & '   ','845','QUPR    ','BJ ','NC ','OK ','DP ','TO ',    !Quercus prinoides Willd.
      & 'CO ','832','QUPR2   ','CO ','WO ','CO ','CO ','CO ',    !Quercus prinus L.
      & 'RO ','833','QURU    ','RO ','RO ','RO ','RO ','RO ',    !Quercus rubra L.
-     & '   ','   ','QURU4   ','BJ ','NC ','OK ','BJ ','BJ ',    !Quercus rugosa Née
+     & '   ','   ','QURU4   ','BJ ','NC ','OK ','BJ ','BJ ',    !Quercus rugosa NÃ©e
      & 'QS ','834','QUSH    ','QS ','BO ','SK ','QS ','QS ',    !Quercus shumardii Buckley
      & 'DO ','836','QUSI2   ','DO ','BR ','PO ','DO ','PO ',    !Quercus similis Ashe
      & '   ','808','QUSIS   ','PO ','BR ','PO ','PO ','PO ',    !Quercus sinuata Walter var. sinuata
@@ -539,7 +539,7 @@ C      ALFA   FIA   PLNT       CS    LS    NE    SE    SN       SPECIES
      & '   ','   ','ROVIH2  ','BK ','BK ','BK ','BK ','BK ',    !Robinia viscosa Vent. var. hartwegii (Koehne) Ashe
      & '   ','909','ROYST   ','NC ','NC ','NC ','NC ','OT ',    !Roystonea O.F. Cook
      & '   ','912','SAPA    ','NC ','NC ','NC ','NC ','OT ',    !Sabal palmetto (Walter) Lodd. ex Schult. & Schult. f.
-     & '   ','929','SASE10  ','WI ','WI ','BL ','WI ','WI ',    !Salix ×sepulcralis Simonkai [alba × ?pendulina]
+     & '   ','929','SASE10  ','WI ','WI ','BL ','WI ','WI ',    !Salix Ã—sepulcralis Simonkai [alba Ã— ?pendulina]
      & '   ','927','SAAL2   ','WI ','WI ','BL ','WI ','WI ',    !Salix alba L.
      & '   ','921','SAAM2   ','WI ','WI ','BL ','WI ','WI ',    !Salix amygdaloides Andersson
      & '   ','925','SACA5   ','WI ','WI ','BL ','WI ','WI '/    !Salix caroliniana Michx.
@@ -612,9 +612,9 @@ C
       DATA ((ASPT(I,J),J=1,8),I=441,450) /
 C      ALFA   FIA   PLNT       CS    LS    NE    SE    SN       SPECIES
      & '   ','994','TRSE6   ','NC ','NC ','NC ','NC ','OH ',    !Triadica sebifera (L.) Small
-     & 'EH ','261','TSCA    ','OS ','EH ','EH ','EH ','HM ',    !Tsuga canadensis (L.) Carrière
+     & 'EH ','261','TSCA    ','OS ','EH ','EH ','EH ','HM ',    !Tsuga canadensis (L.) CarriÃ¨re
      & '   ','262','TSCA2   ','OS ','EH ','HM ','EH ','HM ',    !Tsuga caroliniana Engelm.
-     & 'HM ','260','TSUGA   ','OS ','EH ','HM ','EH ','HM ',    !Tsuga Carrière
+     & 'HM ','260','TSUGA   ','OS ','EH ','HM ','EH ','HM ',    !Tsuga CarriÃ¨re
      & 'WE ','971','ULAL    ','WE ','AE ','EL ','WE ','WE ',    !Ulmus alata Michx.
      & 'AE ','972','ULAM    ','AE ','AE ','AE ','AE ','AE ',    !Ulmus americana L.
      & '   ','973','ULCR    ','EL ','RL ','EL ','EL ','EL ',    !Ulmus crassifolia Nutt.

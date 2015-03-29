@@ -78,7 +78,7 @@ Files:
      ALFA FIA PLNT    AK BM CA CI CR EC EM IE KT NC NI PN SO TT UT WC WS SCIENTIFIC NAME
      ---- --- ----    -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- ---------------   
       OF  010 ABIES   SF GF WF AF AF GF AF GF GF WF GF SF WF AF AF SF WF Abies    
-      SH  021 ABSH    OS OT SH OT OS OT OT OS OT RF OT RF SH OT OT RF RF Abies ×shastensis    
+      SH  021 ABSH    OS OT SH OT OS OT OT OS OT RF OT RF SH OT OT RF RF Abies Ã—shastensis    
       SF  011 ABAM    SF OT SH OT OS SF OT OS OT RF OT SF SF OT OT SF OS Abies amabilis    
       SL  014 ABBR    OS OT OS OT OS OT OT OS OT OS OT OT OS OT OT OT OS Abies bracteata     
       WF  015 ABCO    OS GF WF GF WF GF AF GF GF WF GF WF WF OT WF WF WF Abies concolor    
@@ -167,8 +167,8 @@ Files:
       M               OH OT MA OT OH OT OT OH OT MA OT WA OH OT OT WA TO Arbutus menziesii (Old Code)   
               ARXA80  OH OT OH OT OH OT OT OH OT OH OT OT OH OT OT OT BO Arbutus xalapensis    
       OB  370 BETUL   OH OT OH OT OH OT OT PB OT OH OT PB OH OT OT PB BO Betula    
-              BEEA    OH OT OH OT OH OT OT PB OT OH OT PB OH OT OT PB BO Betula ×eastwoodiae      
-      NW  378 BEUT    OH OT OH OT OH OT OT PB OT OH OT PB OH OT OT PB BO Betula ×utahensis    
+              BEEA    OH OT OH OT OH OT OT PB OT OH OT PB OH OT OT PB BO Betula Ã—eastwoodiae      
+      NW  378 BEUT    OH OT OH OT OH OT OT PB OT OH OT PB OH OT OT PB BO Betula Ã—utahensis    
               BEGL    OH OT OH OT OH OT OT OH OT OH OT OT OH OT OT OT BO Betula glandulosa   
               BENA    OH OT OH OT OH OT OT OH OT OH OT OT OH OT OT OT BO Betula nana    
               BENE4   OH OT OH OT OH OT OT OH OT OH OT OT OH OT OT OT BO Betula neoalaskana    
@@ -250,7 +250,7 @@ Files:
               ELCO    OH OT OH OT OH OT OT OH OT OH OT OT OH OT OT OT BO Elaeagnus commutata    
               ERJA3   OH OT OH OT OH OT OT OH OT OH OT OT OH OT OT OT BO Eriobotrya japonica     
               EUCAL   OH OT OH OT OH OT OT OH OT OH OT OT OH OT OT OT BO Eucalyptus    
-              EUMO5   OH OT OH OT OH OT OT OH OT OH OT OT OH OT OT OT BO Eucalyptus ×mortoniana    
+              EUMO5   OH OT OH OT OH OT OT OH OT OH OT OT OH OT OT OT BO Eucalyptus Ã—mortoniana    
               EUCA2   OH OT OH OT OH OT OT OH OT OH OT OT OH OT OT OT BO Eucalyptus camaldulensis    
               EUCL    OH OT OH OT OH OT OT OH OT OH OT OT OH OT OT OT BO Eucalyptus cladocalyx    
               EUGL    OH OT OH OT OH OT OT OH OT OH OT OT OH OT OT OT BO Eucalyptus globulus    
@@ -373,7 +373,7 @@ Files:
       BS  096 PIPU    OS OT OS OT BS OT ES ES ES OS ES OT OS ES BS OT OS Picea pungens    
       SS  098 PISI    SS OT OS OT OS OT OT OS OT OS OT SS OS OT OT ES OS Picea sitchensis    
       OP  100 PINUS   LP PP SP PP PP LP LP LP LP SP LP LP PP LP LP LP PP Pinus    
-              PIAT2   OS OT MP OT OS OT OT OS OT OS OT OT OS OT OT OT OS Pinus ×attenuradiata    
+              PIAT2   OS OT MP OT OS OT OT OS OT OS OT OT OS OT OT OT OS Pinus Ã—attenuradiata    
       WB  101 PIAL    OS AF WB OT WB AF WB WB LP OS LP WB WB WB WB WB OS Pinus albicaulis    
       BC  102 PIAR    OS OT OS OT BC OT OT OS OT OS OT OT OS OT OT OT OS Pinus aristata    
       AR  135 PIAR5   OS OT OS OT PP OT OT OS OT OS OT OT OS OT OT OT OS Pinus arizonica    
@@ -430,13 +430,13 @@ Files:
       PS  729 PLATA   OH OT SY OT CO OT OT OH OT OH OT OT OH OT OT OT BO Platanus spp.     
               PLWR2   OH OT SY OT CO OT OT OH OT OH OT OT OH OT OT OT BO Platanus wrightii    
       CO  740 POPUL   CW OT CW OT CO OT OT CO OT OH OT CW CW OT OT CW BO Populus    
-              POAC5   OH OT CW OT CO OT OT CO OT OH OT CW CW OT OT CW BO Populus ×acuminata      
-              POBR7   OH OT CW OT CO OT OT CO OT OH OT CW CW OT OT CW BO Populus ×brayshawii    
-              POCA19  OH OT CW OT OH OT OT OH OT OH OT CW CW OT OT CW BO Populus ×canadensis    
-              POHI8   OH OT CW OT CO OT OT CO OT OH OT CW CW OT OT CW BO Populus ×hinckleyana    
-              POIN23  OH OT CW OT CO OT OT CO OT OH OT CW CW OT OT CW BO Populus ×inopina    
-              POJA2   OH OT CW OT OH OT OT OH OT OH OT CW CW OT OT CW BO Populus ×jackii    
-              POPA11  OH OT CW OT CO OT OT CO OT OH OT CW CW OT OT CW BO Populus ×parryi    
+              POAC5   OH OT CW OT CO OT OT CO OT OH OT CW CW OT OT CW BO Populus Ã—acuminata      
+              POBR7   OH OT CW OT CO OT OT CO OT OH OT CW CW OT OT CW BO Populus Ã—brayshawii    
+              POCA19  OH OT CW OT OH OT OT OH OT OH OT CW CW OT OT CW BO Populus Ã—canadensis    
+              POHI8   OH OT CW OT CO OT OT CO OT OH OT CW CW OT OT CW BO Populus Ã—hinckleyana    
+              POIN23  OH OT CW OT CO OT OT CO OT OH OT CW CW OT OT CW BO Populus Ã—inopina    
+              POJA2   OH OT CW OT OH OT OT OH OT OH OT CW CW OT OT CW BO Populus Ã—jackii    
+              POPA11  OH OT CW OT CO OT OT CO OT OH OT CW CW OT OT CW BO Populus Ã—parryi    
               POAL7   OH OT CW OT OH OT OT CO OT OH OT CW CW OT OT CW BO Populus alba    
       NC  749 POAN3   OH OT CW OT CO OT OT CO OT OH OT CW CW OT OT CW BO Populus angustifolia    
       BA  741 POBA2   CW OT CW OT CO OT OT CO OT OH OT CW CW OT OT CW BO Populus balsamifera    
@@ -474,8 +474,8 @@ Files:
               PYCO    OH OT OH OT OH OT OT OH OT OH OT OT OH OT OT OT BO Pyrus communis    
       OA  800 QUERC   OH OT LO OT OA OT OT OH OT BO OT WO WO OT OA WO BO Quercus    
       OE  850         OH OT LO OT OA OT OT OH OT BO OT WO WO OT OA WO BO Quercus    
-              QUMO2   OH OT OH OT OA OT OT OH OT OH OT OT OH OT OA OT BO Quercus ×moreha    
-              QUPA4   OH OT LO OT OA OT OT OH OT BO OT WO WO OT OA WO BO Quercus ×pauciloba      
+              QUMO2   OH OT OH OT OA OT OT OH OT OH OT OT OH OT OA OT BO Quercus Ã—moreha    
+              QUPA4   OH OT LO OT OA OT OT OH OT BO OT WO WO OT OA WO BO Quercus Ã—pauciloba      
       LO  801 QUAG    OH OT LO OT OH OT OT OH OT BO OT WO WO OT OT WO BO Quercus agrifolia    
       AW  803 QUAR    OH OT OH OT OA OT OT OH OT OH OT OT OH OT OA OT BO Quercus arizonica    
       CY  805 QUCH2   OH OT CY OT OA OT OT OH OT BO OT WO WO OT OA WO BO Quercus chrysolepis    
@@ -507,7 +507,7 @@ Files:
               QUWIF   OH OT IO OT OH OT OT OH OT BO OT WO WO OT OT WO BO Quercus wislizeni var. frutescens   
               QUWIW   OH OT IO OT OH OT OT OH OT BO OT WO WO OT OT WO BO Quercus wislizeni var. wislizeni   
               ROBIN   OH OT OH OT OH OT OT OH OT OH OT OT OH OT OT OT BO Robinia    
-              ROHO    OH OT OH OT OH OT OT OH OT OH OT OT OH OT OT OT BO Robinia ×holdtii    
+              ROHO    OH OT OH OT OH OT OT OH OT OH OT OT OH OT OT OT BO Robinia Ã—holdtii    
               ROHI    OH OT OH OT OH OT OT OH OT OH OT OT OH OT OT OT BO Robinia hispida    
               ROHIF8  OH OT OH OT OH OT OT OH OT OH OT OT OH OT OT OT BO Robinia hispida var. fertilis   
               ROHIH   OH OT OH OT OH OT OT OH OT OH OT OT OH OT OT OT BO Robinia hispida var. hispida   
@@ -566,11 +566,11 @@ Files:
       RC  242 THPL    RC GF RC RC RC RC OT RC RC OS RC RC RC OT OT RC OS Thuja plicata    
       C               RC GF RC RC RC RC OT RC RC OS RC RC RC OT OT RC OS Thuja plicata (Old Code)   
       TS  240 THUJA   RC GF RC RC RC RC OT RC RC OS RC RC RC OT OT RC OS Thuja spp.     
-              TIEU4   OH OT OH OT OH OT OT OH OT OH OT OT OH OT OT OT BO Tilia ×europaea     
+              TIEU4   OH OT OH OT OH OT OT OH OT OH OT OT OH OT OT OT BO Tilia Ã—europaea     
       CN  251 TOCA    OS OT CN OT OS OT OT OS OT OS OT OT OS OT OT OT OS Torreya californica    
               TRSE6   OH OT OH OT OH OT OT OH OT OH OT OT OH OT OT OT BO Triadica sebifera     
       HS  260 TSUGA   WH MH WH WH MH GF OT WH WH DF WH WH WH OT OT WH OS Tsuga    
-              TSJE    WH MH WH OT OS GF OT WH WH DF WH WH WH OT OT WH OS Tsuga ×jeffreyi     
+              TSJE    WH MH WH OT OS GF OT WH WH DF WH WH WH OT OT WH OS Tsuga Ã—jeffreyi     
       WH  263 TSHE    WH GF WH WH OS GF OT WH WH DF WH WH WH OT OT WH OS Tsuga heterophylla    
       MH  264 TSME    MH MH MH OT MH GF OT MH WH OS WH MH MH OT OT MH OS Tsuga mertensiana    
               ULMUS   OH OT OH OT OH OT OT OH OT OH OT OT OH OT OT OT BO Ulmus    

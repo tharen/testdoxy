@@ -10,7 +10,7 @@ load (lbs/acre/foot and kg/m3) at various heights above the ground (ft and m).
 
 Users can request this report with the new FFE keyword CanFProf.
 
-CanFProf – request the canopy fuels profile output table. 
+CanFProf â€“ request the canopy fuels profile output table. 
 Field 1: The FVS cycle number or the calendar year when the output starts; default is 1.
 Field 2: Number of years to output; default is 200.
 Field 3: Interval to ouput; default is 1 (every year).        

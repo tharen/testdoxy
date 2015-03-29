@@ -33,7 +33,7 @@ Field 2:	Use imperial units (tons carbon per acre) for output (field is 0
           is 1). Default is 0.
 Field 3:	Annual decay rate (proportion per year) for belowground-dead carbon
           pool (dead roots). Default is blank, which signals that this carbon
-          pool is not simulated. Valid range is >0.0 – 1.0.
+          pool is not simulated. Valid range is >0.0 â€“ 1.0.
 Field 4:	DBH breakpoint (inches) for softwood species. Stem biomass from trees
           smaller than this size assigned to a pulpwood class for calculations
           that produce the harvested products report; those equal or larger are

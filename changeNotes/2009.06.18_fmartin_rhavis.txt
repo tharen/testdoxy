@@ -13,7 +13,7 @@ Description
 2. Eliminated SEVKNOWN and DISCOUNT keywords.
 
 3. Added parameters to the STRTECON keyword for discount rate, known SEV,
-   and compute SEV ìtoggleî (turns SEV calculation on and off).The fields for
+   and compute SEV ‚Äútoggle‚Äù (turns SEV calculation on and off).The fields for
    the STRTECON keyword are:
    
 STRTECON (ECON Start or Re-initialization Year)
@@ -26,8 +26,8 @@ Field 2:  Percentage discount rate, greater than or equal to zero (e.g., 5.25).
 Default = 0.
 
 Field 3: Per acre dollar value of the known SEV; must be greater than zero.
-Specifying a known SEV results in the calculation ìvalue of forestî
-(land plus standing harvestable timber) and ìvalue of treesî (harvestable
+Specifying a known SEV results in the calculation ‚Äúvalue of forest‚Äù
+(land plus standing harvestable timber) and ‚Äúvalue of trees‚Äù (harvestable
 timber separate from land).  If a value is entered in this field then SEV
 will not be calculated, regardless of the value in Field 4, default = 0.  
 
@@ -42,7 +42,7 @@ is greater than zero; SEV is undefined for a zero discount rate.
    diameter limits. The fields for the HRVVRCST are
 
 HRVVRCST (Harvest Variable Cost)
-Field 1:  Current (todayís) cost per unit-of-measure and tree DBH.  A zero cost is permitted.   
+Field 1:  Current (today‚Äôs) cost per unit-of-measure and tree DBH.  A zero cost is permitted.   
 
 Field 2:  Unit-of-measure for which cost is specified.   This field is required or the keyword is ignored.  
 1 = tree/acre harvested
@@ -53,7 +53,7 @@ Field 3:  Smallest tree DBH in inches to which cost applies (greater than or equ
 
 Field 4:  Largest tree DBH in inches to which cost applies (less than).  Default = 999.0
 
-Field 5:  Enter an ì&î (without quotes) if a supplemental record follows the keyword.
+Field 5:  Enter an ‚Äú&‚Äù (without quotes) if a supplemental record follows the keyword.
 
 Supplemental Record:
 Value rate changes are specified on the supplemental record and are entered as a rate and
@@ -65,7 +65,7 @@ supplemental record.
 The fields for the PCTVRCST keyword are
 PCTVRCST (Pre-Commercial Thinning Variable Cost)
 
-Field 1:  Current (todayís) cost per unit-of-measure and tree DBH.  
+Field 1:  Current (today‚Äôs) cost per unit-of-measure and tree DBH.  
 
 Field 2:  Unit-of-measure for which cost is specified.
 This field is required or record is skipped.  
@@ -79,7 +79,7 @@ than or equal).  Default=0.0
 Field 4:  Largest tree DBH in inches to which cost applies (less than).
  Default = 999.0
 
-Field 5:  Enter an ì&î (without quotes) if a supplemental record
+Field 5:  Enter an ‚Äú&‚Äù (without quotes) if a supplemental record
 follows the keyword.
 
 Supplemental Record:

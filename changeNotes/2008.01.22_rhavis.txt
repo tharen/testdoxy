@@ -19,7 +19,7 @@ field 3: Species or species group whose site index will be changed. Default = bl
 field 4: Site index value or percent change. Default = 0.0
 field 5: Site index value code. 0 = the value in field 4 is a site index value; 1= the value in field 4 is a percent change. Default = 0.0
 Note: The PARMS format may NOT be used with this keyword at this time.
-Reference:	Essential FVS: A User’s Guide to the Forest Vegetation Simulator, s. 4.1.2.2
+Reference:	Essential FVS: A Userâ€™s Guide to the Forest Vegetation Simulator, s. 4.1.2.2
 
 2) The FVS Update Bulletin No. 672 describes the us of FSveg Potential Vegetation Codes and Reference Codes
    in FVS. Region 1 has provided cross walks for the FSveg PV Codes / Reference codes to FVS habitat codes,

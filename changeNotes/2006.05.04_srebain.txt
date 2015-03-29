@@ -6,18 +6,18 @@ Variants affected: All variants with FFE (All except AK and CS)
 Description:
 A new soil heating report is available when fires are simulated with the
 Fire and Fuels Extension.  This soil heating output uses the soil heating
-algorithms already in the FOFEM model.  Output includes the temperature (°C)
+algorithms already in the FOFEM model.  Output includes the temperature (Â°C)
 at various depths below the surface.  Also output is the depth where the
-temperature exceeds 60 °C (often considered the lethal temperature for 
-living organisms) and 275 °C.
+temperature exceeds 60 Â°C (often considered the lethal temperature for 
+living organisms) and 275 Â°C.
 
 Users can request this report with the new FFE keyword SOILHEAT.
 
-SOILHEAT – request the soil heating report when a fire is simulated.
+SOILHEAT â€“ request the soil heating report when a fire is simulated.
 Field 1: The FVS cycle number or the calendar year when the output starts; 
          default is 1.
 Field 2: Number of years to output; default is 200.
-Field 3: Soil Type – 1 (Loamy Skeletal), 2 (Fine Silt), 3 (Fine), 
+Field 3: Soil Type â€“ 1 (Loamy Skeletal), 2 (Fine Silt), 3 (Fine), 
                      4 (Coarse Silt), or 5 (Coarse Loam)
 
 Impact on users:

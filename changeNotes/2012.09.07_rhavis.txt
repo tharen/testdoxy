@@ -55,7 +55,7 @@ Files:
                        added call to BLMVOL in CF and BF code segments,
                        initialized and declared variables
                        in call to BLMVOL 
-./volume/blmvol.f –    removed unused variable, APC, from subroutine
+./volume/blmvol.f â€“    removed unused variable, APC, from subroutine
                        statement argument list, and from debug write statements,
 	                deleted obsolete comments
 ./volume/src/voleqdef.f - added Region 6 volume equation numbers to

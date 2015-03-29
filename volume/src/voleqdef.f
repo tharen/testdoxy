@@ -2092,7 +2092,7 @@ c 117          Sugar pine            20     20     20     20     20
 c 119          Western white pine    15     15     15     15     20
 c 120          Bishop pine           --     --     --     --     16
 c 122          Ponderosa pine(>=5dbh) 5      4      4      4      5
-c 122          Ponderosa pine(<5”dbh) 5      5      5      5      5
+c 122          Ponderosa pine(<5â€dbh) 5      5      5      5      5
 c 124          Monterey pine         --     --     --     --     16
 c 127          Gray pine             --     --     --     --     5
 c 130          Scotch pine           17     17     17     17     17
