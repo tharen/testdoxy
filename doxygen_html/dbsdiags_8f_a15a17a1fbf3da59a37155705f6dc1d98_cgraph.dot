@@ -1,0 +1,13 @@
+digraph "dbsdiags"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="dbsdiags",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="loc",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$bur__brn_8c.html#a3c8b7f0fcc184328ecbdff756e8bb21a"];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="rcdset",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$rcdset_8f.html#a1dba8a40ee085d920a3ebb27fcd34a59"];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="fvssetrtncode",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$cmdline_8f.html#a079170808ee3336a99645e9e57dfe5a9"];
+}

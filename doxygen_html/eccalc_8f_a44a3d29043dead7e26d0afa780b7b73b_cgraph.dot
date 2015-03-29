@@ -1,0 +1,17 @@
+digraph "valueharvest"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="valueharvest",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="calcappreamt",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$eccalc_8f.html#a471c758c1b2b5fc0a3889880f080dec2"];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="sevhrvrevenues",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$eccalc_8f.html#a8bf3933bf2e8f27902f099f6e0e7c9c9"];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="calcappresev",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$eccalc_8f.html#af5697d7a97c2a655cf5c95836147f012"];
+  Node4 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="sevhrvcosts",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$eccalc_8f.html#a87dce9049ba5e6bff4ab566b519de440"];
+  Node5 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

@@ -1,0 +1,10 @@
+digraph "econ" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_0262ec4200554973a27bb2e26be364bc {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_0262ec4200554973a27bb2e26be364bc.html"];
+    dir_0262ec4200554973a27bb2e26be364bc [shape=plaintext label="econ"];
+    dir_bbd761553fe1ca0635783f1ad15acdce [shape=box label="src" color="black" fillcolor="white" style="filled" URL="dir_bbd761553fe1ca0635783f1ad15acdce.html"];
+  }
+}

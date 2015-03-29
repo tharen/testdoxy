@@ -1,0 +1,22 @@
+digraph "BCM_SetInputs"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="BCM_SetInputs",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="TPA_To_KiSq",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$fof__util_8c.html#ab66b71a54ead81a0010519c7e416121d"];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="BRN_SetFireDat",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$bur__brn_8c.html#af40a312e8de0452736f13d1fbe0d6165"];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="BCM_DW10M_Adj",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$fof__bcm_8c.html#ac2f89c64eb365645a2aa2fea455a7aaf"];
+  Node4 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="LEM_Put",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$fof__lem_8c.html#a00efce80221ecd585021817edce5ea70"];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="BRN_SetFuel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$bur__brn_8c.html#a183e2eb35955a98ff65448daea53c910"];
+  Node6 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="BOV_Entry",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$bur__bov_8c.html#a9fe51c3e0787e633021079167212dfc4"];
+  Node1 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="BCM_DW1k_MoiRot",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$fof__bcm_8c.html#a5aac5b248f709df129bc204e4e1a0b1c"];
+}

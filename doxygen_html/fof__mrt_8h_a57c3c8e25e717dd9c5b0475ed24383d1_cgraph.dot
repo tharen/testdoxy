@@ -1,0 +1,36 @@
+digraph "MRT_Calc"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="MRT_Calc",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="xstrcmpi",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$fof__ansi_8h.html#ae4a2af8fafbd412557cbf887bb828c13"];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="xstrupr",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$fof__unix_8c.html#a597515502edd92634b421f7f86824375"];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="Calc_Scorch",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$fof__util_8c.html#ac875887f10b082185b4748cf008b189f"];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="SMT_GetIdx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$fof__mrt_8c.html#a900974c147c07afd383e8c6ae1480676"];
+  Node5 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="xstrupr",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$fof__ansi_8h.html#a597515502edd92634b421f7f86824375"];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="SMT_CalcBarkThick",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$fof__mrt_8c.html#a4821843dc9666e62f76857bad90c195f"];
+  Node7 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="SMT_MortEqu",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$fof__mrt_8c.html#a4d2a289d15ab65deba90f9ef1aa7dc72"];
+  Node8 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="Calc_Flame",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$fof__util_8c.html#a4df6ccd4e6aec70e5c90825ed00e8caa"];
+  Node1 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="MRT_Total",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$fof__mrt_8c.html#a34cefb037a3ac0a6d4ed46a8fa7ec792"];
+  Node10 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="Basal_Area",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$fof__util_8c.html#a03d6460eae4a8734102852c4892c9a18"];
+  Node10 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="SMT_CalcCrnCov",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$fof__mrt_8c.html#af2e2894248f68dcef4f7b13f68483851"];
+  Node12 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="CCT_Get",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$fof__mrt_8c.html#a7bc7d2fdbe57f98a391ecc0bce014c76"];
+  Node10 -> Node14 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="MRT_Overlap",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$fof__mrt_8c.html#acb7f8742203f94a105bd3bcf08a686ac"];
+}

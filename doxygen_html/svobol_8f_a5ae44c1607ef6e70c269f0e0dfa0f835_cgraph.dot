@@ -1,0 +1,20 @@
+digraph "svobol"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="svobol",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="svcrol",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$svcrol_8f.html#ae3ea9128c4120ec5ad16f71941792cad"];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="svlcol",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$svlcol_8f.html#a64cc18cc52b1e39311be0888d9b10250"];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="svdfln",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$svdfln_8f.html#afe5a00d8f1edd401d395cd16e85baed2"];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="svlnol",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$svlnol_8f.html#a89a8fda3432eeb871bc3583ec018727f"];
+  Node5 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="svlsol",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$svlsol_8f.html#afc46980d39a1b4628422cd9f2a5eee18"];
+  Node5 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="svonln",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$svonln_8f.html#ac66e3f546019f66b6299cd8268455f8d"];
+}
